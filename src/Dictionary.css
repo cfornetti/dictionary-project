@@ -1,3 +1,10 @@
+.Dictionary h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .Dictionary section{
     background: white;
     padding: 30px;
@@ -7,7 +14,6 @@
 }
 
 .Dictionary input{
-    text-align: center;
     width: 100%;
     border-radius: 6px;
     padding: 8px 10px;

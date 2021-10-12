@@ -1,6 +1,5 @@
 body{
   background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
-  background-repeat: no-repeat;
   background-blend-mode: darken;
 }
 .App-header{

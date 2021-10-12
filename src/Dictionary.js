@@ -35,8 +35,13 @@ if (loaded){
   return (
     <div className="Dictionary">
       <section>
+        <h1>
+          Welcome to my Dictionary. What word are you looking for?
+        </h1>
       <form onSubmit={handleSubmit}>
-        <input type="search" onChange={handleKeywordChange} />
+        <input type="search" 
+        onChange={handleKeywordChange}
+        defaultValue={props.defaultKeyword} />
       </form>
       <div className="hint">
       Look for a word in English
