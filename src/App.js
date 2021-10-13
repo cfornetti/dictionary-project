@@ -14,6 +14,10 @@ function App() {
       <small>
       Created by <a href="https://github.com/cfornetti">Chiara Fornetti</a>
       </small>
+      <br/>
+      <small className="Photos">
+      Photos by <a href="https://www.pexels.com/">Pexels</a>
+      </small>
     </footer>
     </div>
     </div>
