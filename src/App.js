@@ -12,7 +12,10 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>Coded by <a href="https://github.com/cfornetti/dictionary-project">Chiara Fornetti</a></small>
-          <small>Photo by <a href="https://www.pexels.com/" className="Images">Chiara Fornetti</a></small>
+          <br/>
+          <p className="Images">
+          <em>Photo by <a href="https://www.pexels.com/">Pexels</a></em>
+          </p>
         </footer>
       </div>
     </div>

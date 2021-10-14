@@ -2,6 +2,13 @@
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Dictionary h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 

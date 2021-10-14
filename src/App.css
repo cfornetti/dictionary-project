@@ -17,5 +17,9 @@ body{
 }
 
 .App-footer .Photos{
+  font-size: 18px;
+}
+
+.Images{
   font-size: 12px;
 }
