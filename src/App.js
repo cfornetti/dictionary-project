@@ -1,27 +1,20 @@
-import './App.css';
-import Dictionary from "./Dictionary"
+import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-    <div className="container">
-      <header className="App-header">
-      </header>
-      <main>
-        <Dictionary defaultKeyword="welcome" />
-      </main>
-    <footer className="App-footer">
-      <small>
-      Created by <a href="https://github.com/cfornetti">Chiara Fornetti</a>
-      </small>
-      <br/>
-      <small className="Photos">
-      Photos by <a href="https://www.pexels.com/">Pexels</a>
-      </small>
-    </footer>
-    </div>
+      <div className="container">
+        <header className="App-header">
+        </header>
+        <main>
+          <Dictionary defaultKeyword="sunset" />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by <a href="https://github.com/cfornetti/dictionary-project">Chiara Fornetti</a></small>
+          <small>Photo by <a href="https://www.pexels.com/" className="Images">Chiara Fornetti</a></small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
