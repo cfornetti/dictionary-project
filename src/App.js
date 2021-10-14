@@ -8,7 +8,7 @@ export default function App() {
         <header className="App-header">
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="welcome" />
         </main>
         <footer className="App-footer">
           <small>Coded by <a href="https://github.com/cfornetti/dictionary-project">Chiara Fornetti</a></small>
